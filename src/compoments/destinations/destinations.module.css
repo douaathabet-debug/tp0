@@ -1,0 +1,17 @@
+.destinations {
+    padding: 40px 8%;
+    background-color: #f4f6f8;
+    flex: 1;
+}
+
+.titre {
+    color: #173D55;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.liste {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
